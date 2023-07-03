@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="#228B22"
+        android:textSize="25dp"
+        android:text="WELCOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textFullName"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:text="Full Name - "
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:text="Email - "
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:textColor="#fff"
+        android:background="#000080"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="LOGOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
